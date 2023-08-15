@@ -1,0 +1,38 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  height: 100vh;
+  background: url("./Images//milad-fakurian-HE1_K4_-QT8-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.filter{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.302);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 200px;
+  color: white;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+}
+
+span{
+  color: orangered;
+}
